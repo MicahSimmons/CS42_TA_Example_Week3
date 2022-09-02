@@ -9,14 +9,21 @@
         <link href="./style/style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>The Number Guessing Game!</h1>
-        <div id="#gamecontainer">
+        <header id="instructions">
+            <h1>Asteroid Navigator</h1>
+            <p>A to Move Left ; D to Move Right</p>
+            <p>Press Spacebar to begin</p>
+        </header>
 
-            <div class="mb-3">
-                <label for="gameInput" class="form-label">Guess My Number</label>
-                <input class="form-control" id="#gameInput" placeholder="??">
+        <footer id="gameover">
+            <h1>Game Over!</h1>
+            <p>Press Spacebar to restart</p>
+        </footer>
+        <div id="#gamecontainer">
+            <div class="starfield"></div>
+            <div class="spaceship">
+                <img src="./images/DurrrSpaceShip.png"></img>
             </div>
-            <button type="button" id="#gameBtn" class="btn btn-primary" >Check My Guess</button>
 
             <div id="#output"></div>
         </div>

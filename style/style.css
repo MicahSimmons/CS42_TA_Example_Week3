@@ -2,3 +2,49 @@ body {
     background: black;
     color: lime;
 }
+
+header {
+    margin:auto;
+    width: 30%;
+    top: 30vh;
+    text-align: center;
+}
+
+footer {
+    margin:auto;
+    width: 30%;
+    top: 30vh;
+    text-align: center;
+}
+
+.spaceship {
+    position: absolute;
+    width: 5vw;
+    left: 50vw;
+    top: 80vh;
+}
+
+.spaceship img {
+    width: 100%;
+}
+
+.starfield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-image: url("../images/space5.png");
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+
+.asteroid {
+    position: absolute;
+    width: 20vw;
+}
+
+.asteroid img {
+    width: 100%;
+}
